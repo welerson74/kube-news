@@ -28,7 +28,7 @@ jobs:
              welerson74/kube-news:latest
   CD:      
      runs-on: ubuntu-latest
-    needs
+     needs: [CI]
      steps:
        - uses: actions/checkout@v4.2.2
 
